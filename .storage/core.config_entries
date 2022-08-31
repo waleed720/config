@@ -1,0 +1,353 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "374b2801d4122214b924938d4210ca4d",
+        "version": 1,
+        "domain": "hassio",
+        "title": "Supervisor",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "unique_id": "hassio",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "30cb3d5a75cf47a16d0fca81c8910d51",
+        "version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "aef1166211ef6449c91a0921e2662353",
+        "version": 1,
+        "domain": "cast",
+        "title": "Google Cast",
+        "data": {
+          "ignore_cec": [],
+          "known_hosts": [],
+          "uuid": [],
+          "user_id": "d15b13679fe6462d9a04fbaf81860962"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "cast",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "34aa5be1efea3a80614eb18bf08883b4",
+        "version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "track_home": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a5c325b16dd19c224e53ad86c7afa219",
+        "version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "eacf0ca76abef544218cce3bbbe19c53",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "iPhone 13 Pro Max وليد",
+        "data": {
+          "app_version": "2022.8 (2022.387)",
+          "manufacturer": "Apple",
+          "model": "iPhone14,3",
+          "app_id": "io.robbie.HomeAssistant",
+          "supports_encryption": true,
+          "app_data": {
+            "push_token": "cqlb_WdOX0X3jigWAJNSch:APA91bHt3CBW6WUXgqE3qSSiB4j4Ruq4q0NhCqNZ3V0Ark0rea9QPwPeq3xOFMOrOQw_KHimDnx6YbU4rsQTJkBUr4xdROIgOqdJz9KAf0ve5Xx8ZWNz8UewdB-YuR2Rre6YuPgXmB0s",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+          },
+          "device_name": "iPhone 13 Pro Max وليد",
+          "device_id": "D025FC75-1A4E-414E-908A-3EA73FE6EF0F",
+          "app_name": "Home Assistant",
+          "os_version": "15.6.1",
+          "os_name": "iOS",
+          "webhook_id": "d5991d865e5f199a0908e21e3834cdfaa9335b0c9633252b3aba90c4de31b85c",
+          "secret": "249d92b2b53718067d2d0ef05fb5c98bf5367f71ef5778a6ce51f8c8f867ce26",
+          "user_id": "7ef1b4a685274032bcac654310e87375",
+          "no_legacy_encryption": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.robbie.HomeAssistant-D025FC75-1A4E-414E-908A-3EA73FE6EF0F",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "b2bd6ffd71f0e048d2f78eb819482e50",
+        "version": 1,
+        "domain": "tuya",
+        "title": "waleed.tnt.720@gmail.com",
+        "data": {
+          "endpoint": "https://openapi.tuyaeu.com",
+          "auth_type": 0,
+          "access_id": "u5qe3a4da8gpkh9mhvpp",
+          "access_secret": "079ba0791f2b4017bca6a2d930cdab8a",
+          "username": "waleed.tnt.720@gmail.com",
+          "password": "4455230@Wal",
+          "country_code": "966",
+          "tuya_app_type": "tuyaSmart"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ae39306b3780a3738e734de9074acdcf",
+        "version": 1,
+        "domain": "tplink",
+        "title": "Tp2 waleed KL130(EU)",
+        "data": {
+          "host": "192.168.100.146"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "cc:32:e5:a2:fc:40",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "3634bb419174d66ffe02f6f3145ab412",
+        "version": 1,
+        "domain": "tplink",
+        "title": "Tp1 waleed KL130(EU)",
+        "data": {
+          "host": "192.168.100.145"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "cc:32:e5:bc:60:65",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a88ad0f4f05ee168640a4a4b897e8fd4",
+        "version": 1,
+        "domain": "homekit",
+        "title": "HASS Bridge:21064",
+        "data": {
+          "name": "HASS Bridge",
+          "exclude_accessory_mode": true,
+          "port": 21064
+        },
+        "options": {
+          "filter": {
+            "include_domains": [
+              "alarm_control_panel",
+              "climate",
+              "cover",
+              "humidifier",
+              "fan",
+              "light",
+              "lock",
+              "media_player",
+              "remote",
+              "vacuum",
+              "water_heater",
+              "automation",
+              "button",
+              "binary_sensor",
+              "device_tracker",
+              "input_boolean",
+              "input_button",
+              "input_select",
+              "camera",
+              "scene",
+              "sensor",
+              "person"
+            ],
+            "exclude_domains": [],
+            "include_entities": [
+              "switch.smart_switch_l821x_switch_1"
+            ],
+            "exclude_entities": []
+          },
+          "mode": "bridge",
+          "devices": [
+            "5b7e13c7bcfff2ed813b705852d19355"
+          ]
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "6bb4713c9257847befd0b118c0135d91",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "Ipad 12.9 Pro ",
+        "data": {
+          "app_name": "Home Assistant",
+          "supports_encryption": true,
+          "os_name": "iPadOS",
+          "device_name": "Ipad 12.9 Pro ",
+          "os_version": "15.6.1",
+          "app_id": "io.robbie.HomeAssistant",
+          "app_data": {
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
+            "push_token": "cPI5wdtGvUcatTWoU2F6lN:APA91bEMaarscoa43CXgFajXl7U16jmAz3GQTmIEBhfyee32_ciZdC_FOWen56GVnuNNtSz0gljS7kXoHP_lq7pg7d-FcKAU7Mu8U5Ey3yoaEgApEcN_ncDCMn-5Meln9YDk7hPg_FKM"
+          },
+          "app_version": "2022.8 (2022.387)",
+          "manufacturer": "Apple",
+          "device_id": "A59D24B7-8497-4875-BE86-CD603B64729D",
+          "model": "iPad13,8",
+          "webhook_id": "8ba514bd6ce965931ce8451b5dc18c46e19975819d6a1e477f4dad460f0a50eb",
+          "secret": "e855f20c33bcebbf86ac6cbacac67aa129b4576ed2a095a229c2836ab99340f1",
+          "user_id": "7ef1b4a685274032bcac654310e87375",
+          "no_legacy_encryption": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.robbie.HomeAssistant-A59D24B7-8497-4875-BE86-CD603B64729D",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "1ce4c3081176dc2297406f224b036091",
+        "version": 1,
+        "domain": "hacs",
+        "title": "",
+        "data": {
+          "token": "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"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a53685d1bb43760c72be0843d05523ff",
+        "version": 1,
+        "domain": "synology_dsm",
+        "title": "W360.synology.me",
+        "data": {
+          "host": "192.168.100.130",
+          "port": "5000",
+          "ssl": false,
+          "verify_ssl": false,
+          "username": "Waleedz",
+          "password": "4455230@Wal",
+          "mac": [
+            "00-11-32-F9-A2-0D",
+            "00-11-32-F9-A2-0E",
+            "00-11-32-F9-A2-0F"
+          ],
+          "device_token": "jtupwR6FjIzGnxRgKkj8b3ye40lbgzkOENNLr8NmSV--Yiddu8zuQbmYSsrkITogb1ab1-RdqhMVjclWvhQRCw"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "2150RVR1W9TQK",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "c0627e1fdcf10a39026e20ed04c19e41",
+        "version": 1,
+        "domain": "mqtt",
+        "title": "core-mosquitto",
+        "data": {
+          "broker": "core-mosquitto",
+          "port": 1883,
+          "username": "mqttbroker",
+          "password": "4455230@Wal",
+          "birth_message": {
+            "topic": "homeassistant/status",
+            "payload": "online",
+            "qos": 0,
+            "retain": false
+          },
+          "will_message": {
+            "topic": "homeassistant/status",
+            "payload": "offline",
+            "qos": 0,
+            "retain": false
+          },
+          "discovery": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "18cdfe78e26c20cd6d69fd562a80f356",
+        "version": 1,
+        "domain": "coronavirus",
+        "title": "Saudi Arabia",
+        "data": {
+          "country": "Saudi Arabia"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "Saudi Arabia",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "eb1e6b9eaf5a46d7c8fee588625f0587",
+        "version": 1,
+        "domain": "webostv",
+        "title": "[LG] webOS TV OLED55CXPVA",
+        "data": {
+          "host": "192.168.100.155",
+          "client_secret": "10c82b76853ee44ed1a9647d69598598"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "e2657baf-95b0-7613-7514-ccdc4695206f",
+        "disabled_by": null
+      }
+    ]
+  }
+}
