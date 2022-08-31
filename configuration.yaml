@@ -13,7 +13,7 @@ switch:
   # turn_off:
   #  service: shell_command.turn_off_CoolerMaster-PC
 
-#shell_command:
+#shell_command for pc:
 #turn_off_TARGET: "ssh hass@CoolerMaster-PC sudo pm-suspend"
 
 automation: !include automations.yaml
